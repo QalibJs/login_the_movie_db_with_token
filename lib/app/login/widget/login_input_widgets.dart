@@ -20,9 +20,11 @@ class LoginInputsWidget extends StatelessWidget {
         child: Column(
           children: [
             GlobalInputWidget(
+              maxLines: 1,
+              isPassword: false,
               validator: (value) {
                 if (value!.isEmpty) {
-                  return "Enter email";
+                  return "Enter username";
                 }
                 return null;
               },
@@ -31,9 +33,11 @@ class LoginInputsWidget extends StatelessWidget {
             ),
             AppSizedBox.h10,
             GlobalInputWidget(
+              maxLines: 1,
+              isPassword: true,
               validator: (value) {
                 if (value!.isEmpty) {
-                  return "Enter email";
+                  return "Enter password";
                 }
                 return null;
               },
