@@ -1,11 +1,9 @@
-import 'dart:convert';
-
 import 'package:dio/dio.dart';
-import 'package:working_movie_token/constants/app_token.dart';
-import 'package:working_movie_token/data/model/fail/login_fail_model.dart';
-import 'package:working_movie_token/data/model/success/login_success_model.dart';
-import 'package:working_movie_token/data/model/success/token_success_model.dart';
-import 'package:working_movie_token/data/service/token_service.dart';
+import '../../constants/app_token.dart';
+import '../model/fail/login_fail_model.dart';
+import '../model/success/login_success_model.dart';
+import '../model/success/token_success_model.dart';
+import 'token_service.dart';
 
 class LoginService {
   LoginService._();

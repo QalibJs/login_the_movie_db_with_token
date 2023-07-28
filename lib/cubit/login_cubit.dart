@@ -2,12 +2,12 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:working_movie_token/app/home/screen/home_screen.dart';
-import 'package:working_movie_token/constants/app_navigators.dart';
-import 'package:working_movie_token/data/model/fail/login_fail_model.dart';
-import 'package:working_movie_token/data/model/success/login_success_model.dart';
-import 'package:working_movie_token/data/service/hive_service.dart';
-import 'package:working_movie_token/data/service/login_service.dart';
+import '../app/home/screen/home_screen.dart';
+import '../constants/app_navigators.dart';
+import '../data/model/fail/login_fail_model.dart';
+import '../data/model/success/login_success_model.dart';
+import '../data/service/hive_service.dart';
+import '../data/service/login_service.dart';
 
 class LoginCubit extends Cubit<int> {
   LoginCubit() : super(0);

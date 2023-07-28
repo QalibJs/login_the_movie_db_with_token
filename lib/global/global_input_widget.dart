@@ -35,12 +35,12 @@ class GlobalInputWidget extends StatefulWidget {
 }
 
 class _GlobalInputWidgetState extends State<GlobalInputWidget> {
+  bool isSecure = false;
   @override
   Widget build(BuildContext context) {
-    bool isSecure = false;
     return TextFormField(
       obscuringCharacter: "*",
-      obscureText: widget.isPassword! ? true : false,
+      obscureText: isSecure? false :(widget.isPassword! ? true : false)  ,
       maxLines: widget.maxLines,
       inputFormatters: widget.inputFormatters,
       keyboardType: widget.inputType,

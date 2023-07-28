@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:working_movie_token/app/login/screen/login_screen.dart';
-import 'package:working_movie_token/constants/app_colors.dart';
-import 'package:working_movie_token/constants/app_navigators.dart';
-import 'package:working_movie_token/constants/app_texts.dart';
-import 'package:working_movie_token/cubit/login_cubit.dart';
-import 'package:working_movie_token/data/service/hive_service.dart';
-import 'package:working_movie_token/global/globla_button_widget.dart';
+import '../../login/screen/login_screen.dart';
+import '../../../constants/app_colors.dart';
+import '../../../constants/app_navigators.dart';
+import '../../../constants/app_texts.dart';
+import '../../../cubit/login_cubit.dart';
+import '../../../global/globla_button_widget.dart';
 
 class HomeLogOutButtonWidget extends StatelessWidget {
   const HomeLogOutButtonWidget({super.key});

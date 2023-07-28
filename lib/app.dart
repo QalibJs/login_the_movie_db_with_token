@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sizer/sizer.dart';
-import 'package:working_movie_token/app/home/screen/home_screen.dart';
-import 'package:working_movie_token/app/login/screen/login_screen.dart';
-import 'package:working_movie_token/cubit/login_cubit.dart';
+import 'app/home/screen/home_screen.dart';
+import 'app/login/screen/login_screen.dart';
+import 'cubit/login_cubit.dart';
 
 class MyApp extends StatelessWidget {
   final int? home;

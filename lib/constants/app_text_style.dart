@@ -19,4 +19,9 @@ class AppTextStyle {
         fontWeight: FontWeight.bold,
         fontSize: 12.sp,
       );
+  static get announce => TextStyle(
+        color: AppColors.green,
+        fontWeight: FontWeight.bold,
+        fontSize: 13.sp,
+      );
 }

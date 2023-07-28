@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
-import 'package:working_movie_token/constants/app_token.dart';
-import 'package:working_movie_token/data/model/fail/token_fail_model.dart';
-import 'package:working_movie_token/data/model/success/token_success_model.dart';
+import '../../constants/app_token.dart';
+import '../model/fail/token_fail_model.dart';
+import '../model/success/token_success_model.dart';
 
 class TokenService {
   TokenService._();

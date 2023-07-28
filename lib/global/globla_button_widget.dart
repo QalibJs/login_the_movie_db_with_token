@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:working_movie_token/constants/app_paddings.dart';
+import '../constants/app_paddings.dart';
 import '../constants/app_elevated_styles.dart';
 import '../constants/app_text_style.dart';
 

@@ -32,6 +32,7 @@ class LoginInputsWidget extends StatelessWidget {
               hintText: AppTexts.username,
             ),
             AppSizedBox.h10,
+            AppSizedBox.h10,
             GlobalInputWidget(
               maxLines: 1,
               isPassword: true,
@@ -44,6 +45,8 @@ class LoginInputsWidget extends StatelessWidget {
               controller: loginCubit.passwordController,
               hintText: AppTexts.password,
             ),
+            AppSizedBox.h10,
+
           ],
         ),
       ),

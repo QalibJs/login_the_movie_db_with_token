@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:working_movie_token/constants/app_sized_box.dart';
-import 'package:working_movie_token/cubit/login_cubit.dart';
+import '../../../constants/app_sized_box.dart';
+import '../../../cubit/login_cubit.dart';
 import '../../../constants/app_colors.dart';
 import '../../../constants/app_texts.dart';
 import '../../../global/globla_button_widget.dart';
